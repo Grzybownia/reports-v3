@@ -1,0 +1,84 @@
+/// Statusy czynności
+public enum ActionStatuses
+{
+/// Oczekująca
+Pending = 510000,
+
+/// W trakcie realizacji
+Inprogress = 510001,
+
+/// Zrealizowana
+Realized = 510002,
+
+/// Anulowana
+Canceled = 510003,
+
+/// Roboczy
+Draft = 510004
+}
+
+/// Czynności
+public enum ActionTypes
+{
+/// Gotowość towaru u załadowcy
+CargoReadiness = 60000,
+
+/// Buking
+Booking = 60001,
+
+/// Dyspozycja celna
+CustomsClearance = 60002,
+
+/// Formowanie
+Formation = 60003,
+
+/// Rozformowanie
+Deformation = 60004,
+
+/// Rozładunek (nieaktywne)
+Unloading = 60005,
+
+/// Załadunek (nieaktywne)
+Loading = 60006,
+
+/// Zlecenie transportowe
+TransportOrder = 60007,
+
+/// Potwierdzenie bukingu
+BookingConfirmation = 60008
+}
+
+/// Rodzaje alertów
+public enum AlertObjectType
+{
+/// Operacja spedycyjna
+ShippingOperation = 370000,
+
+/// Dyspozycja celna
+CustomsClearance = 370001,
+
+/// Czynność
+Action = 370002
+}
+
+/// Kategorie alertów
+public enum AlertsCategory
+{
+/// Niski
+Low = 380000,
+
+/// Normalny
+Normal = 380001,
+
+/// Wysoki
+High = 380002
+}
+
+
+
+
+
+
+ReportShippingCustomers
+co dawac zamiast 566
+

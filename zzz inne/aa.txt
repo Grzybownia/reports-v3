@@ -1,0 +1,51 @@
+-- XXXXXXXXXXXXXXXXX	4	Data zlecenia
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	5	Data przyjęcia do realizacji
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	6	Data realizacji
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	7	Data zakończenia
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	8	Zleceniodawca CHG
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	9	Biuro wykonawcy
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	10	Kierownik biura wykonawcy
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	11	Tryb odprawy
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	12	Incoterms
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	13	Rodzaj odprawy
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	14	Procedura celna
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	15	Typ zgłoszenia
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	16	Data deadline 
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	17	Data E.T.D.
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	18	Rodzaj zabezpieczeń
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	19	Płatnik
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	20	Miejsce załadunku
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	21	Importer/Eksporter
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	22	Zleceniodawca
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	23	Płatnik
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	24	Numer referencyjny WinSAD
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	25	Numer OGL/MRN
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	26	Data odprawy
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	27	Data odbioru SAD-u/POD
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	28	Liczba pozycji
+	,@vcharIDontKnowWhere AS \[XXXXXXXXXXXXXX\]
+-- XXXXXXXXXXXXXXXXX	29	Suma należności celnych - (suma z pól "Kwota" - w tabeli z należnościami celnymi).

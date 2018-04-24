@@ -1,0 +1,53 @@
+dwa przecinki:
+znajdz:
+,\s*\n\s*,
+zamien na 
+\n,
+
+
+
+znajdz podwojne przecinki:
+,[\s\n\t]*,      ===========          ,
+
+trailing spaces and tabs
+[ \t]+\n    ===================   \n
+
+
+
+labels spacje rpzed
+
+
+
+labels spacej za 
+\n\s*</Value>
+</Value>
+
+NAGLOWKI
+kolory naglowkow
+  <Color>#666666</Color>
+  <Color>#000000</Color>
+
+borders 
+(<Border>\n)(\s*)(<Color>LightGrey</Color>)(\n\s*</Border>)
+$1$2$3\n$2<Style>Solid</Style>$4
+
+bottom i szare tlo
+(<BottomBorder>)\n(\s*).*\n\s*(<\/BottomBorder>)
+$1\n$2<Color>Black</Color>\n$2<Width>2pt</Width>\n$2$3\n$2<BackgroundColor>LightGrey</BackgroundColor>
+
+markuj:
+xxx[\s\S\n]*?yyy
+zzzzzz
+
+i wlasciwe:
+zzzzzz
+<Style>Solid</Style>\n</Border><TopBorder>\n<Width>1pt</Width>\n</TopBorder>\n<BottomBorder>\n<Width>2pt</Width>\n</BottomBorder>\n<LeftBorder>\n<Width>1pt</Width>\n</LeftBorder>\n<RightBorder>\n<Width>1pt</Width>\n</RightBorder>\n
+
+
+WIERSZE
+<Style>\n\s*<Border>[\s\S\n]*?<\/BottomBorder>
+zzzzzz
+
+<Style>\n<Border>\n<Color>LightGrey</Color>\n</Border>\n<BottomBorder>\n<Style>Solid</Style>\n</BottomBorder>\n<LeftBorder>\n<Style>Solid</Style>\n<Width>1pt</Width>\n</LeftBorder>\n<RightBorder>\n<Style>Solid</Style>\n<Width>1pt</Width>\n</RightBorder>
+
+==interactive sorting

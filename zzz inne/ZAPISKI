@@ -1,0 +1,21 @@
+--	18	Port załadunku	
+	LEFT JOIN schDictionaries.tDictionaryItemVersions tLoadingPort
+	ON tSOM.LoadingPortId = tLoadingPort.DictionaryItemVersionId
+	LEFT JOIN schDictionaries.tDictionaryItemNames tLoadingPortName
+	ON tLoadingPort.DictionaryItemVersionId = tLoadingPortName.DictionaryItemVersionId
+		AND tLoadingPortName.LanguageDictId = @LanguageDictId
+	
+	
+	
+	LEFT JOIN schDictionaries.tDictionaryItemNames tLoadingPort
+	ON tSOM.LoadingPortId = tLoadingPort.DictionaryItemVersionId
+		AND tLoadingPort.LanguageDictId = @LanguageDictId
+
+
+
+		ReportBooking: fix parameter prompts 
+		ReportOperationLCL: fix parameter prompts 
+		ReportTransportOrder: fix parameter prompts 
+
+		for /D %a in (*) do ren "%a" "00_%a"
+

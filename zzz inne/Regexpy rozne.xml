@@ -1,0 +1,49 @@
+dodaj sort:
+(<TablixCell>\n[\s\D\d]*?</CanGrow>)(\n[\s\D\d]*?<Value>(.+)</Value>)
+$1\n<UserSort>\n<SortExpression>=Fields!$3.Value</SortExpression>\n</UserSort>$2
+
+usun spacje w sort expression
+(<SortExpression>=Fields!)(\w*)\s*(\w*)\s*(\w*)\s*(\w*)\s*(\.Value</SortExpression>)
+$1$2$3$4$5$6
+
+wielokrotne SortExpression
+(</UserSort>\n\s*)<UserSort>[\d\D]*?</UserSort>
+$1
+
+dodawanie myslnikow jak nulle w bazie
+(<Textrun>\n\s*)(<Value>)=Fields!(.*)\.Value(</Value>)
+$1$2=IIF (Fields!$3.Value = "", "---", Fields!$3.Value)$4
+
+usun ---
+<Value>=IIF.*!(.*)\)
+<Value>=Fields!$1
+
+polskie nazwy kolumn
+(<TextRun>\n\s*<Value>)(\w*)\s*(\w*)\s*(\w*)\s*(\w*)\s*(\w*)\s*(\w*)\s*(\w*)\s*(\w*)(<)
+$1$2$3$4$5$6$7$8$9$10
+
+spacja z prozdu
+(<TextRun>\n\s*<Value>)\s*(\w)
+$1$2
+
+spacja z tylu
+(\w)\s*\n\s*(</Value>\n\s*<Style>)
+$1$2
+
+
+
+
+
+
+
+
+
+dwa przecinki:
+,\s*\n\s*,
+\n,
+
+znajdz podwojne przecinki:
+,[\s\n\t]*,      ===========          ,
+
+trailing spaces and tabs
+[ \t]+\n    ===================   \n

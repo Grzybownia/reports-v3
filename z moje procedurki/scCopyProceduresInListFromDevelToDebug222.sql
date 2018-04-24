@@ -10,7 +10,7 @@ FROM sys.procedures p
 	ON p.object_id = m.object_id
 WHERE p.name IN (
 --   'prGetCustomsClearance'
-	'prGetBooking' --dasdasd
+    'prGetBooking'
 --    ,'prGetOperationLCL'   
 --    ,'prGetTransportOrder'
 --    ,'PrGetLabelsByType'
